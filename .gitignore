@@ -1,0 +1,23 @@
+# Ignore Django SQLite database
+db.sqlite3
+
+# Ignore Django migrations
+*/migrations/
+!*/migrations/__init__.py
+
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+
+# Environment
+.env
+*.env
+
+# VSCode / IDE files
+.vscode/
+.idea/
+*.swp
+
+# Static/media (optional if large)
+staticfiles/
+media/
